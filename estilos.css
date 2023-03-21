@@ -2,7 +2,7 @@
 *
 {
     padding: 0;
-    margin: 30px;
+    margin: 0;
     box-sizing: border-box;
 
 }
@@ -13,13 +13,24 @@ a
     text-transform: capitalize;
 }
 
+/* Body */
+body
+{
+    background-image:url(imagenes/bg.png) ;
+}
 
+/* DIV */
 
+div
+{
+    width: 75%;
+    margin-left: 10%;
+}
 /*  Header */
 
 header
 {
-
+    background-color: white;
 }
 header nav
 {
@@ -28,31 +39,98 @@ header nav
 
 header nav ul /*Valores para el nav completo*/
 {
-    width: 65%;
-    height: 70px;
+
+    
     float:  right;
+    margin-right: 7%;
+    margin-top: 3%;
     background-color: black;
 }
 header nav ul li /*Valores para las Palabras dentro del nav*/
 {
     display: inline-block;
     color: white;
-    margin-left: 2px;
-    margin-top: 25px;
+    padding: 20px;
     text-transform: capitalize;
-    
-    font-size: 20px;
+    font-size: large;
+}
+header nav ul a
+{
+    color: white;
+
+}
+header nav ul li:hover
+{
+    background-color: rgba(255, 238, 0, 0.973);
+
 }
 header nav img
 {
     border: 5px solid red;
+    margin-left: 7%;
+    margin-top: 2%;
+
+}
+
+/* HEADER SECTION */
+
+header h1
+{
+
+font-size: x-large;
+}
+
+/* header section img
+{
+    float: right;
+    position: relative;
+} */
+
+
+
+header section
+{
+   padding: 10%;
+   background-image: url(imagenes/banner.png);
+   background: no-repeat;
+}
+
+header section p
+{
+    width: 35%;
+}
+header section a
+{
+    border-radius: 15px;
+    color: white;
+    background-color: black;
 }
 
 /* Main */
-
+main
+{
+background-color: white;
+}
+main h2
+{
+    /* font-size: large;
+    text-align: center; */
+}
 
 
 
 
 
 /* Aside */
+
+aside
+{
+    background-color: white;
+}
+
+/* Footer */
+
+footer
+{
+    background-color: white;
+}
