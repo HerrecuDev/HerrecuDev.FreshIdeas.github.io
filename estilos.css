@@ -4,13 +4,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
 
 }
 /* Para toda la pagina */
 a
 {
     text-decoration: none;
-    text-transform: capitalize;
+    
 }
 
 /* Body */
@@ -25,7 +26,9 @@ div
 {
     width: 75%;
     margin-left: 10%;
+    position: relative;
 }
+
 /*  Header */
 
 header
@@ -90,31 +93,97 @@ font-size: x-large;
 
 header section
 {
-   padding: 10%;
-   background-image: url(imagenes/banner.png);
-   background: no-repeat;
+   padding: 5%;
+   background:url(./imagenes/banner.png) no-repeat right;
+   
+   border: 5px solid red;
+   
+   
 }
 
 header section p
 {
-    width: 35%;
+    width: 30%;
+    line-height: 2;
+    margin-bottom: 2%;
+    font-size: medium;
+    
+    
 }
 header section a
 {
-    border-radius: 15px;
+    
+    padding: 25px 40px;
+    font-size: medium;
+    border: 5px solid red;
     color: white;
+    
     background-color: black;
 }
+
+
+
+
 
 /* Main */
 main
 {
 background-color: white;
+padding: 2%;
+width: 65%;
+float: left;
+
+}
+#services
+{
+    height: 100%;
 }
 main h2
 {
-    /* font-size: large;
-    text-align: center; */
+    border-bottom: 1px dotted black; /*Pintamos el subrayado */
+    
+}
+main p
+{
+    margin-left: 0%;
+    line-height: 1.5;
+    
+}
+main img
+{
+    float: left;
+    border: 1px solid gray;
+    padding: 1%;
+    
+    
+    
+}
+main article p
+{
+    margin-left: 5%;
+}
+main article a
+{
+
+}
+
+/*LE DAMOS ALTURA AL SECTION SERVICE*/
+#services
+{
+    height: 200%;
+}
+
+
+/*About Us*/
+#aboutUs
+{
+    margin-top: 5%;
+
+}
+
+#testimonios
+{
+    margin-top: 5%;
 }
 
 
@@ -126,11 +195,15 @@ main h2
 aside
 {
     background-color: white;
+    
 }
 
 /* Footer */
 
 footer
 {
-    background-color: white;
+    border: 5px solid red;
+    margin-top: 20%;
+    
+
 }
