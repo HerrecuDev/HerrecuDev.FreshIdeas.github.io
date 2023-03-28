@@ -143,17 +143,35 @@ main h2
     border-bottom: 1px dotted black; /*Pintamos el subrayado */
     
 }
-main p
+main section p
 {
-    margin-left: 0%;
     line-height: 1.5;
     
+    
 }
-main img
+main article h3
+{
+    width: 20%;
+    float: right;
+    margin-right: 58%;
+    border: 5px solid red;
+
+}
+main article p
+{
+    /* padding: 10px 35px; */
+    border: 5px solid red;
+    /* clear: both; */
+    width: 80%;
+    
+}
+
+main article img
 {
     float: left;
     border: 1px solid gray;
     padding: 1%;
+    
     
     
     
@@ -180,11 +198,26 @@ main article a
     margin-top: 5%;
 
 }
+#aboutUs img
+{
+    margin-top: 10px;
+}
+#aboutUs p
+{
+    border: 5px solid red;
+}
 
+/*TESTIMONIOS */
 #testimonios
 {
     margin-top: 5%;
 }
+#testimonios p
+{
+
+}
+
+
 
 
 
@@ -203,7 +236,9 @@ aside
 footer
 {
     border: 5px solid red;
-    margin-top: 20%;
+    margin-top: 28%;
+    background-color: black;
+    color: white;
     
 
 }
