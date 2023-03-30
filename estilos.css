@@ -149,40 +149,36 @@ main section p
     
     
 }
-main article h3
+main article
 {
-    width: 20%;
-    float: right;
-    margin-right: 58%;
-    border: 5px solid red;
-
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
+main h3
+{
+    margin-left: 22%;
+    /* border: 5px solid red; */
+}
+
 main article p
 {
-    /* padding: 10px 35px; */
-    border: 5px solid red;
-    /* clear: both; */
-    width: 80%;
-    
+    margin-left: 22%;
 }
 
 main article img
 {
     float: left;
     border: 1px solid gray;
-    padding: 1%;
-    
-    
-    
+    padding: 12px;
+   
     
 }
-main article p
-{
-    margin-left: 5%;
-}
+
 main article a
 {
-
+    margin-left: 1%;
+    color: black;
+    font-weight: bold;
 }
 
 /*LE DAMOS ALTURA AL SECTION SERVICE*/
@@ -195,16 +191,33 @@ main article a
 /*About Us*/
 #aboutUs
 {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    /* border: 5px solid red; */
 
 }
 #aboutUs img
 {
+    float: left;
     margin-top: 10px;
+    border: 1px solid gray;
+    padding: 12px;
+    
+    /* border: 5px solid red; */
 }
 #aboutUs p
 {
+    margin-top: 1%;
+    padding-left: 30%;
     border: 5px solid red;
+    
+    
+}
+#aboutUs a
+{
+    margin-left: 1%;
+    color: black;
+    font-weight: bold;
 }
 
 /*TESTIMONIOS */
