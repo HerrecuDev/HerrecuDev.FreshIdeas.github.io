@@ -35,15 +35,10 @@ header
 {
     background-color: white;
 }
-header nav
-{
 
-}
 
 header nav ul /*Valores para el nav completo*/
 {
-
-    
     float:  right;
     margin-right: 7%;
     margin-top: 3%;
@@ -69,7 +64,6 @@ header nav ul li:hover
 }
 header nav img
 {
-    border: 5px solid red;
     margin-left: 7%;
     margin-top: 2%;
 
@@ -80,48 +74,52 @@ header nav img
 header h1
 {
 
-font-size: x-large;
+    font-size: 30px;
+    margin-right: 60%;
+    border-bottom: 1px dotted black; /*Pintamos el subrayado */
+   
 }
-
-/* header section img
-{
-    float: right;
-    position: relative;
-} */
 
 
 
 header section
 {
    padding: 5%;
+   /* padding-right: 5%; */
    background:url(./imagenes/banner.png) no-repeat right;
-   
-   border: 5px solid red;
-   
-   
+   border: 2px solid gray;
+   /* margin-right: 12px; */
+
+   width: 112%;
+   /* border: 5px solid red; */
+
 }
+
 
 header section p
 {
-    width: 30%;
+    width: 35%;
     line-height: 2;
     margin-bottom: 2%;
     font-size: medium;
     
     
 }
+header section div{
+    border: 3px solid grey;
+    
+}
+
 header section a
 {
     
-    padding: 25px 40px;
+    padding: 20px 20px;
     font-size: medium;
     border: 5px solid red;
     color: white;
     
     background-color: black;
 }
-
-
 
 
 
@@ -146,8 +144,7 @@ main h2
 main section p
 {
     line-height: 1.5;
-    
-    
+
 }
 main article
 {
@@ -171,7 +168,6 @@ main article img
     border: 1px solid gray;
     padding: 12px;
    
-    
 }
 
 main article a
@@ -196,28 +192,29 @@ main article a
     /* border: 5px solid red; */
 
 }
+#aboutUs p
+{
+    margin-top: 1%;
+    margin-left: 32%;
+
+}
 #aboutUs img
 {
     float: left;
     margin-top: 10px;
     border: 1px solid gray;
-    padding: 12px;
+    padding: 15px;
+    width: 31%;
+    
     
     /* border: 5px solid red; */
 }
-#aboutUs p
-{
-    margin-top: 1%;
-    padding-left: 30%;
-    border: 5px solid red;
-    
-    
-}
+
 #aboutUs a
 {
     margin-left: 1%;
     color: black;
-    font-weight: bold;
+    font-weight: bold; /*Destacamos en negrita la letra*/
 }
 
 /*TESTIMONIOS */
@@ -227,14 +224,15 @@ main article a
 }
 #testimonios p
 {
-
+    margin-top: 7px;
+    border: 5px solid red;
 }
 
 
 
 
 
-
+/* ARTICULO DE LAS LATEST NEWS*/
 
 /* Aside */
 
@@ -242,16 +240,76 @@ aside
 {
     background-color: white;
     
+    margin-left: 65%; /*LO USO  PARA DARLE EL ANCHO CORRECTO AL ASIDE COMPLETO */
+    padding: 2%;
+    padding-bottom: 13%;
+}
+aside h2
+{
+    
+    border-bottom: 1px dotted black; /*Pintamos el subrayado */
+    
+}
+aside h3
+{
+    margin-top: 5%;
+}
+aside p
+{
+    border-bottom: 1px dotted black; /*Pintamos el subrayado */
+    margin-top: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    
+   
+}
+
+aside a
+{
+    /* border: 5px solid red; */
+    color: black;
+    font-weight: bold;
+   
+}
+
+aside img
+{
+   padding: 12%;
+   margin-left: 5px;
+   
+   margin-top: 20px;
+   border: 1px solid gray;
+}
+
+aside article time
+{
+    
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-right: 30%;
+    margin-top: -6%; /*Para poder lograr que el Datetime suba junto al titulo h2*/
+   
+    background-color: #f7d917;
 }
 
 /* Footer */
 
 footer
 {
-    border: 5px solid red;
-    margin-top: 28%;
     background-color: black;
     color: white;
-    
-
+    padding: 1%;
 }
+
+footer small
+{
+    padding-left: 15%;
+}
+footer small+small
+{
+    float: right;
+    margin-right: 20%;
+}
+
+
