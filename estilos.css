@@ -74,8 +74,8 @@ header nav img
 header h1
 {
 
-    font-size: 30px;
-    margin-right: 60%;
+    font-size: 40px;
+    margin-right: 67%;
     border-bottom: 1px dotted black; /*Pintamos el subrayado */
    
 }
@@ -85,12 +85,11 @@ header h1
 header section
 {
    padding: 5%;
-   /* padding-right: 5%; */
    background:url(./imagenes/banner.png) no-repeat right;
-   border: 2px solid gray;
-   /* margin-right: 12px; */
+   border: 8px solid gray;
 
-   width: 112%;
+   width: 119%;
+   margin-left: -8%;
    /* border: 5px solid red; */
 
 }
@@ -99,9 +98,9 @@ header section
 header section p
 {
     width: 35%;
-    line-height: 2;
-    margin-bottom: 2%;
-    font-size: medium;
+    line-height: 1.5;
+    margin-bottom: 5%;
+    font-size: 20px;
     
     
 }
@@ -113,12 +112,11 @@ header section div{
 header section a
 {
     
-    padding: 20px 20px;
+    padding: 30px 40px;
     font-size: medium;
-    border: 5px solid red;
     color: white;
-    
     background-color: black;
+    margin-bottom: 1px;
 }
 
 
@@ -130,12 +128,9 @@ background-color: white;
 padding: 2%;
 width: 65%;
 float: left;
+}
 
-}
-#services
-{
-    height: 100%;
-}
+/*Services Section*/
 main h2
 {
     border-bottom: 1px dotted black; /*Pintamos el subrayado */
@@ -144,7 +139,7 @@ main h2
 main section p
 {
     line-height: 1.5;
-
+    margin-right: 15%;
 }
 main article
 {
@@ -159,7 +154,9 @@ main h3
 
 main article p
 {
-    margin-left: 22%;
+    margin-left: 22%; /*Para separar el texto de la imagen*/
+    /* border: 5px solid red; */
+    margin-right: 18%; /*Ajustamos el ancho y alto de los textos junto a cada imagen*/
 }
 
 main article img
@@ -170,21 +167,15 @@ main article img
    
 }
 
-main article a
+main article a /*Nos referimos a los Read more de los 3 articulos dentro del service*/
 {
-    margin-left: 1%;
+    margin-left: 1.7%;
     color: black;
     font-weight: bold;
 }
 
-/*LE DAMOS ALTURA AL SECTION SERVICE*/
-#services
-{
-    height: 200%;
-}
 
-
-/*About Us*/
+/*About Us Section*/
 #aboutUs
 {
     margin-top: 10%;
@@ -225,7 +216,7 @@ main article a
 #testimonios p
 {
     margin-top: 7px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 
@@ -242,7 +233,8 @@ aside
     
     margin-left: 65%; /*LO USO  PARA DARLE EL ANCHO CORRECTO AL ASIDE COMPLETO */
     padding: 2%;
-    padding-bottom: 13%;
+    padding-bottom: 9.5%; 
+   
 }
 aside h2
 {
@@ -257,11 +249,10 @@ aside h3
 aside p
 {
     border-bottom: 1px dotted black; /*Pintamos el subrayado */
-    margin-top: 5%;
-    padding-right: 5%;
+    margin-top: 6%;
+    padding-right: 28%;
     line-height: 1.5;
-    
-   
+    /* border: 5px solid red; */
 }
 
 aside a
@@ -285,12 +276,15 @@ aside article time
 {
     
     color: black;
+    font-size: medium;
     font-weight: bold;
     float: right;
-    margin-right: 30%;
-    margin-top: -6%; /*Para poder lograr que el Datetime suba junto al titulo h2*/
+    padding: 10px 10px; /*Tamaño del cuadrado amarillo*/
    
+    margin-right: 50%;
+    margin-top: -6%; /*Para poder lograr que el Datetime suba junto al titulo h2*/
     background-color: #f7d917;
+   
 }
 
 /* Footer */
@@ -299,7 +293,7 @@ footer
 {
     background-color: black;
     color: white;
-    padding: 1%;
+    padding: 2%;
 }
 
 footer small
